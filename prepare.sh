@@ -17,3 +17,5 @@ echo "--- Getting element-web from archive ---"
 yarn run fetch --importkey
 yarn run fetch --cfgdir ''
 
+echo "--- Creating deb and snap ---"
+yarn build:linux
